@@ -5,16 +5,15 @@
       <script type="text/Javascript" src="guessing.js"></script>
   </head>
   <body>
-    <p>
-      <label>Guess a number here!</label>
-      <input type="text"
-             id = "txtGuess"
-             onkeypress="return checkGuess(event)"
-             value=""/>
-      <input id="btnGuess"
-             type="submit"
-             value="Check"
-             onclick="checkGuess();" />
-    </p>
+    <form onsubmit="return false">
+        <label>Guess a number here!</label>
+        <input type="text"
+               id = "txtGuess"
+               value=""/>
+        <input id="btnGuess"
+               type="submit"
+               value="Check"
+               onclick="checkGuess();" />
+    </form>
   </body>
 </html>
