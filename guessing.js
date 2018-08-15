@@ -1,11 +1,6 @@
 var goal = Math.floor((Math.random() * 100) + 1);
 var count=0;
 
-function checkGuess(event){
-  if(event.key==="Enter"){
-    checkGuess();
-  }
-}
 function checkGuess() {
   var guess = parseInt(document.getElementById('txtGuess').value)
   count++;
