@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+      <script type="text/Javascript" src="guessing.js"></script>
+  </head>
+  <body>
+    <p>
+      <label>Guess a number here!</label>
+      <input type="text"
+             id = "txtGuess"
+             onkeypress="return checkGuess(event)"
+             value=""/>
+      <input id="btnGuess"
+             type="submit"
+             value="Check"
+             onclick="checkGuess();" />
+    </p>
+  </body>
+</html>
