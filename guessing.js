@@ -1,4 +1,4 @@
-var goal = Math.floor((Math.random() * 100) + 1);
+var goal = Math.floor((Math.random() * parseInt(prompt("What should be the highest possible number?"))) + 1);
 var count=0;
 
 function checkGuess() {
