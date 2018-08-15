@@ -10,8 +10,8 @@ function checkGuess() {
     alert("Lower!");
   if(goal===guess){
     if(count===1)
-      document.write("You guessed the the number \""+goal+"\" in "+count+" guess!");
+      document.write("You guessed the number \""+goal+"\" in "+count+" guess!");
     else
-      document.write("You guessed the the number \""+goal+"\" in "+count+" guesses!");
+      document.write("You guessed the number \""+goal+"\" in "+count+" guesses!");
   }
 }
